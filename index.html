@@ -30,14 +30,25 @@
             border-radius: 4px;
             overflow: hidden;
         }
+        .warning {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>歡迎使用我們的聊天機器人</h1>
+        <div class="warning">
+            <strong>注意：</strong> 如果聊天機器人未能加載，請確保 iframe 的源地址使用 HTTPS。
+        </div>
         <div class="iframe-container">
             <iframe
-                src="http://enagafly-test.eslitec.com/chatbot/v7CIO3CSRxWg9HET"
+                src="https://enagafly-test.eslitec.com/chatbot/v7CIO3CSRxWg9HET"
                 style="width: 100%; height: 100%; min-height: 700px"
                 frameborder="0"
                 allow="microphone">
